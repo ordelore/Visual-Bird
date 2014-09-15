@@ -1,0 +1,10 @@
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\bin\Debug\Gamefail.exe.config
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\bin\Debug\Gamefail.exe
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\bin\Debug\Gamefail.pdb
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\bin\Debug\Gamefail.xml
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.frmMain.resources
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.Resources.resources
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.vbproj.GenerateResource.Cache
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.exe
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.xml
+\\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.pdb
