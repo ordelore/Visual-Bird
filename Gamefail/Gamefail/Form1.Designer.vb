@@ -24,7 +24,7 @@ Partial Class frmMain
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.picBird = New System.Windows.Forms.PictureBox()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.tmrFall = New System.Windows.Forms.Timer(Me.components)
         CType(Me.picBird, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -39,9 +39,9 @@ Partial Class frmMain
         Me.picBird.TabIndex = 0
         Me.picBird.TabStop = False
         '
-        'Timer1
+        'tmrFall
         '
-        Me.Timer1.Enabled = True
+        Me.tmrFall.Enabled = True
         '
         'frmMain
         '
@@ -57,6 +57,6 @@ Partial Class frmMain
 
     End Sub
     Friend WithEvents picBird As System.Windows.Forms.PictureBox
-    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents tmrFall As System.Windows.Forms.Timer
 
 End Class
