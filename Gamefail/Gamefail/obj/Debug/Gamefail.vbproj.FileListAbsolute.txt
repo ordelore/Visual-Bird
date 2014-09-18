@@ -8,3 +8,13 @@
 \\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.exe
 \\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.xml
 \\s-students\student-homes\ord502855\visual studio 2013\Projects\Gamefail\Gamefail\obj\Debug\Gamefail.pdb
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\bin\Debug\Gamefail.exe.config
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\obj\Debug\Gamefail.exe
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\obj\Debug\Gamefail.xml
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\obj\Debug\Gamefail.pdb
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\bin\Debug\Gamefail.exe
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\bin\Debug\Gamefail.pdb
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\bin\Debug\Gamefail.xml
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\obj\Debug\Gamefail.frmMain.resources
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\obj\Debug\Gamefail.Resources.resources
+C:\Users\Lorenzo\Documents\GitHub\Visual-Bird\Gamefail\Gamefail\obj\Debug\Gamefail.vbproj.GenerateResource.Cache
