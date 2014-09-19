@@ -15,27 +15,7 @@ Gamefail
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:Gamefail.My.Resources.Resources._2612283_s1_i1_419">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Gamefail.My.Resources.Resources._31ueY8PU4_L__SY300_">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Gamefail.My.Resources.Resources._5403ffa89e7a1">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Gamefail.My.Resources.Resources.flapbird">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
 </member><member name="P:Gamefail.My.Resources.Resources.flapbird1">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Gamefail.My.Resources.Resources.images">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

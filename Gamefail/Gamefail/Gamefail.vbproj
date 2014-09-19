@@ -99,9 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -117,22 +117,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2612283_s1_i1_419.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\31ueY8PU4+L._SY300_.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\5403ffa89e7a1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\jprgqobw.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\flapbird.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\flapbird1.png" />
