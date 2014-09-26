@@ -26,11 +26,16 @@ Partial Class frmMain
         Me.picBird = New System.Windows.Forms.PictureBox()
         Me.tmrFall = New System.Windows.Forms.Timer(Me.components)
         Me.lblScore = New System.Windows.Forms.Label()
+        Me.picPipe = New System.Windows.Forms.PictureBox()
+        Me.picOpening = New System.Windows.Forms.PictureBox()
         CType(Me.picBird, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picPipe, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picOpening, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picBird
         '
+        Me.picBird.BackColor = System.Drawing.SystemColors.Control
         Me.picBird.Image = Global.Gamefail.My.Resources.Resources.flapbird1
         Me.picBird.Location = New System.Drawing.Point(192, 210)
         Me.picBird.Name = "picBird"
@@ -54,17 +59,41 @@ Partial Class frmMain
         Me.lblScore.Size = New System.Drawing.Size(0, 37)
         Me.lblScore.TabIndex = 1
         '
+        'picPipe
+        '
+        Me.picPipe.BackColor = System.Drawing.Color.Transparent
+        Me.picPipe.Image = Global.Gamefail.My.Resources.Resources.pipe
+        Me.picPipe.Location = New System.Drawing.Point(375, -7)
+        Me.picPipe.Name = "picPipe"
+        Me.picPipe.Size = New System.Drawing.Size(38, 500)
+        Me.picPipe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picPipe.TabIndex = 2
+        Me.picPipe.TabStop = False
+        '
+        'picOpening
+        '
+        Me.picOpening.BackColor = System.Drawing.Color.Transparent
+        Me.picOpening.Location = New System.Drawing.Point(375, 200)
+        Me.picOpening.Name = "picOpening"
+        Me.picOpening.Size = New System.Drawing.Size(38, 49)
+        Me.picOpening.TabIndex = 3
+        Me.picOpening.TabStop = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Gamefail.My.Resources.Resources.jprgqobw
         Me.ClientSize = New System.Drawing.Size(424, 482)
+        Me.Controls.Add(Me.picOpening)
+        Me.Controls.Add(Me.picPipe)
         Me.Controls.Add(Me.lblScore)
         Me.Controls.Add(Me.picBird)
         Me.Name = "frmMain"
         Me.Text = "Flappy Bird"
         CType(Me.picBird, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picPipe, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picOpening, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -72,5 +101,7 @@ Partial Class frmMain
     Friend WithEvents picBird As System.Windows.Forms.PictureBox
     Friend WithEvents tmrFall As System.Windows.Forms.Timer
     Friend WithEvents lblScore As System.Windows.Forms.Label
+    Friend WithEvents picPipe As System.Windows.Forms.PictureBox
+    Friend WithEvents picOpening As System.Windows.Forms.PictureBox
 
 End Class
