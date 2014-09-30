@@ -35,7 +35,7 @@ Partial Class frmMain
         '
         'picBird
         '
-        Me.picBird.BackColor = System.Drawing.SystemColors.Control
+        Me.picBird.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.picBird.Image = Global.Gamefail.My.Resources.Resources.flapbird1
         Me.picBird.Location = New System.Drawing.Point(192, 210)
         Me.picBird.Name = "picBird"
@@ -65,7 +65,7 @@ Partial Class frmMain
         Me.picPipe.Image = Global.Gamefail.My.Resources.Resources.pipe
         Me.picPipe.Location = New System.Drawing.Point(375, -7)
         Me.picPipe.Name = "picPipe"
-        Me.picPipe.Size = New System.Drawing.Size(38, 500)
+        Me.picPipe.Size = New System.Drawing.Size(40, 500)
         Me.picPipe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picPipe.TabIndex = 2
         Me.picPipe.TabStop = False
@@ -75,7 +75,7 @@ Partial Class frmMain
         Me.picOpening.BackColor = System.Drawing.Color.Transparent
         Me.picOpening.Location = New System.Drawing.Point(375, 200)
         Me.picOpening.Name = "picOpening"
-        Me.picOpening.Size = New System.Drawing.Size(38, 49)
+        Me.picOpening.Size = New System.Drawing.Size(40, 50)
         Me.picOpening.TabIndex = 3
         Me.picOpening.TabStop = False
         '
