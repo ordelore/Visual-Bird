@@ -28,6 +28,7 @@ Partial Class frmMain
         Me.lblScore = New System.Windows.Forms.Label()
         Me.picPipe = New System.Windows.Forms.PictureBox()
         Me.picOpening = New System.Windows.Forms.PictureBox()
+        Me.tmrEnd = New System.Windows.Forms.Timer(Me.components)
         CType(Me.picBird, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picPipe, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picOpening, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,9 +64,9 @@ Partial Class frmMain
         '
         Me.picPipe.BackColor = System.Drawing.Color.Transparent
         Me.picPipe.Image = Global.Gamefail.My.Resources.Resources.pipe
-        Me.picPipe.Location = New System.Drawing.Point(375, -7)
+        Me.picPipe.Location = New System.Drawing.Point(375, 0)
         Me.picPipe.Name = "picPipe"
-        Me.picPipe.Size = New System.Drawing.Size(40, 500)
+        Me.picPipe.Size = New System.Drawing.Size(40, 480)
         Me.picPipe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picPipe.TabIndex = 2
         Me.picPipe.TabStop = False
@@ -73,11 +74,15 @@ Partial Class frmMain
         'picOpening
         '
         Me.picOpening.BackColor = System.Drawing.Color.Transparent
-        Me.picOpening.Location = New System.Drawing.Point(375, 200)
+        Me.picOpening.Location = New System.Drawing.Point(375, 190)
         Me.picOpening.Name = "picOpening"
-        Me.picOpening.Size = New System.Drawing.Size(40, 50)
+        Me.picOpening.Size = New System.Drawing.Size(40, 70)
         Me.picOpening.TabIndex = 3
         Me.picOpening.TabStop = False
+        '
+        'tmrEnd
+        '
+        Me.tmrEnd.Interval = 10000
         '
         'frmMain
         '
@@ -103,5 +108,6 @@ Partial Class frmMain
     Friend WithEvents lblScore As System.Windows.Forms.Label
     Friend WithEvents picPipe As System.Windows.Forms.PictureBox
     Friend WithEvents picOpening As System.Windows.Forms.PictureBox
+    Friend WithEvents tmrEnd As System.Windows.Forms.Timer
 
 End Class
